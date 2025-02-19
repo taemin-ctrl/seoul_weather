@@ -5,7 +5,7 @@ import csv
 from datetime import datetime
 import os
 
-API_KEY = "64f30e1c66890fd204f9708fceaab177"
+API_KEY = os.env
 CITY = "Seoul"
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
